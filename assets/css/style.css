@@ -1380,10 +1380,12 @@ to {
 	width: 100%;
 }
 .atf-contact-btn .atf-themes-btn {
-	color: var(--thm-white);
+	color:black;
+	border-color:var(--thm-white);;
 }
 .atf-contact-btn .atf-themes-btn:hover {
-	transform:translateY(-0px);
+	background:var(--thm-light-black);
+	color: white;
 }
 .contact h4 {
 	font-size: 25px;
@@ -1403,9 +1405,10 @@ to {
 	font-size: 14px;
 }
 .contact .form-control:focus {
-	border-color: var(--thm-color);
-	box-shadow: none;
+	border-color: #ced4da;	
 	outline: 0 none;
+	-webkit-box-shadow:0 0 15px rgba(0,0,0,0.2);
+	box-shadow:0 0 15px rgba(0,0,0,0.2);
 }
 .contact textarea {
 	border-radius: 0px;
