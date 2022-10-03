@@ -860,7 +860,7 @@ to {
 * ----------------------------------------------------------------------------------------
 */
 #testimonial{
-	background:var(--thm-black);
+	background:var(--thm-fb);
 }
 .atf-testimonial .atf-pic{
     width: 22%;
