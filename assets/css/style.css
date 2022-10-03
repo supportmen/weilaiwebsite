@@ -748,14 +748,13 @@ to {
 	position:relative;
 }
 .atf-about-content {
-	border:1px solid var(--thm-eee);
-	padding: 40px 25px;
+	border:1px solid var(--thm-eee);	
 	transition:0.3s ease-in-out;
 	-webkit-transition:0.3s ease-in-out;
 }
 .atf-about-content:hover {
-	-webkit-box-shadow:0 0 15px rgba(0,0,0,0.1);
-	box-shadow:0 0 15px rgba(0,0,0,0.1);
+	-webkit-box-shadow:0 0 15px rgba(0,0,0,0.3);
+	box-shadow:0 0 15px rgba(0,0,0,0.3);
 }
 .atf-about-number {
     position: absolute;
@@ -771,10 +770,16 @@ to {
 	-webkit-transition:0.3s ease-in-out;
 	opacity:0.1;
 }
+
+.atf-about-text{
+	background: #000000;
+	margin-top: 2px;
+}
+
 .atf-about-text h3 {
 	padding: 15px 0 10px 0;
-	color: var(--thm-black);
-	font-weight: 700;
+	color: var(--thm-white);
+	font-weight: 100;
 }
 .atf-about-content:hover h3 {
 	color: var(--thm-color);
@@ -1310,7 +1315,7 @@ to {
 * ----------------------------------------------------------------------------------------
 */
 .atf-brand-area {
-	background:var(--thm-fb);
+	background:var(--thm-white);
 }
 #atf-law-partner {
 	background:var(--thm-white)!important;
@@ -1563,3 +1568,10 @@ to {
 .firstline-indent {
 	text-indent:18px; 
 }
+
+.demo1{
+    background: url(../img/bg/jiaju.jpg) no-repeat;	
+	
+}
+
+
